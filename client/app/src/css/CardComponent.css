@@ -1,0 +1,96 @@
+.cv-card {
+  background-color: #1e1e1e;
+  border-radius: 12px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 25px;
+  padding-top: 10px;
+  margin-bottom: 40px;
+  margin-top: 20px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.9);
+  color: #ffffff;
+}
+
+.cv-card-content {
+  display: grid;
+  grid-template-columns: 0.8fr 1fr;
+  row-gap: 10px;
+  column-gap: 15px;
+  align-items: start;
+}
+
+.cv-card-content h3 {
+  grid-column: 1 / -1;
+  font-size: 20px;
+  font-weight: bold;
+  color: #ffffff;
+  margin-top: 20px;
+  margin-bottom: 5px;
+  text-align: left;
+  color: aquamarine;
+}
+
+
+.cv-card-content hr{
+  grid-column: 1 / -1;
+  border: none;
+  border-bottom: 2px solid #5e5e5e;
+  margin: 0 10px 10px 0;
+}
+
+.cv-card-content .label {
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 17px;
+  text-align: left;
+}
+
+.cv-card-content .value {
+  color: #cccccc;
+  font-size: 17px;
+  font-weight: 400;
+  text-align: left;
+}
+
+.card-actions {
+  margin-top: 20px;
+  display: flex;
+  justify-content: flex-start;
+  gap: 15px;
+}
+
+.edit-btn,
+.delete-btn {
+  font-size: 12px;
+  padding: 6px 14px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s, transform 0.1s;
+}
+
+.edit-btn {
+  background-color: #956ac9;
+  color: #ffffff;
+}
+
+hr {
+  margin-top: 25px;
+  border-bottom: 2px solid #5e5e5e;
+}
+
+.delete-btn {
+  background-color: #ff4c4c;
+  color: #ffffff;
+}
+
+.edit-btn:hover {
+  background-color: #6500b3;
+  transform: scale(1.05);
+}
+
+.delete-btn:hover {
+  background-color: #b30000;
+  transform: scale(1.05);
+}

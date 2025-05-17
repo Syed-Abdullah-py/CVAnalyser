@@ -1,0 +1,125 @@
+body {
+  background-color: #121212;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #e0e0e0;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.app-description {
+  color: #bbb;
+  margin-top: 10px;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.card {
+  background: #1e1e1e;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.6);
+  text-align: center;
+  width: 500px;
+}
+
+.card h1 {
+  color: #bb86fc;
+  margin-bottom: 20px;
+  font-size: 50px;
+}
+
+.button-groups {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.button-group button {
+  background-color: #956ac9;
+  border: none;
+  padding: 10px 25px;
+  border-radius: 8px;
+  cursor: pointer;
+  color: #ffffff;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.button-group button:hover {
+  background-color: #6500b3;
+}
+
+/* ChatBox Styles */
+.chat-box {
+  background: #1e1e1e;
+  border-radius: 12px;
+  padding: 20px;
+  width: 500px;
+  margin-top: 40px;
+  box-shadow: 0 0 10px rgba(187, 134, 252, 0.2);
+}
+
+.chat-history {
+  height: 300px;
+  overflow-y: auto;
+  padding: 10px;
+  background-color: #181818;
+  border-radius: 8px;
+  border: 1px solid #333;
+  margin-bottom: 15px;
+}
+
+.chat-history .message {
+  margin-bottom: 10px;
+}
+
+.chat-history .user {
+  text-align: right;
+  color: #ffffff;
+}
+
+.chat-history .ai {
+  text-align: left;
+  color: #bb86fc;
+}
+
+.input-group {
+  display: flex;
+  gap: 10px;
+}
+
+.input-group input {
+  flex-grow: 1;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  background-color: #2a2a2a;
+  color: #fff;
+}
+
+.input-group input::placeholder {
+  color: #aaa;
+}
+
+.input-group button {
+  padding: 10px 20px;
+  border-radius: 8px;
+  background-color: #bb86fc;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.input-group button:hover {
+  background-color: #6500b3;
+}
