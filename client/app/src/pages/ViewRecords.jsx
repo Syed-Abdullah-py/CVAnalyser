@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import axios from 'axios';
 import Card from '../components/CardComponent';  
-import '../css/ViewRecords.css';
+import '../css/viewRecords.css';
 
 function ViewRecords() {
   const [cvs, setCvs] = useState([]);
